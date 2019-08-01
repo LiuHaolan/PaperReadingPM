@@ -1,9 +1,12 @@
 # Bill Griswold's Paper Reading Template
+Refer to https://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html to find out his comments on how to read a paper
 
 ## Basic Information
-Title:
-Authors:
-Published in:
+Title: 
+
+Authors: 
+
+Published in: 
 
 ## Take-away message
 What is your take-away message from this paper?

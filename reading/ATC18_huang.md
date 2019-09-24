@@ -1,15 +1,17 @@
 # Bill Griswold's Paper Reading Template
-Refer to https://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html to find out his comments on how to read a paper
 
 ## Basic Information
-Title: 
+Title: Closing the Performance Gap Between Volatile and Persistent Key-Value Stores Using Cross-Referencing Logs
 
-Authors: 
+Authors: Yihe Huang, etc
 
-Published in: 
+Published in: ATC'18
 
 ## Main Point
 What is your take-away message from this paper?
+
+### What is Cross-Referencing Logs? Why need it and how it works?
+
 
 ## Motivation
 What is the motivation for this work (both people problem and technical problem), and its distillation into a research
@@ -19,6 +21,15 @@ inadequate?
 ## Solution
 What is the proposed solution (hypothesis, idea, design)? Why is it believed it will work? How does it represent an
 improvement? How is the solution achieved?
+
+### Four key optimization
+1, fully decoupled Put()
+
+2, Non-blocking Gets()
+
+3, write-load 
+
+4, opportunistic Put collapsing
 
 ## Evaluation
 What is the author’s evaluation of the solution? What logic, argument, evidence, artifacts (e.g., a proof-of-concept
